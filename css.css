@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #d5f57d;
+	margin: 0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:500;
+}
+h2 {
+	font-size:24px;
+	color:#7cc209;
+}
+h3 {
+	font-size:20px;
+}
+h4 {
+	font-size:16px;
+	color:#7cc209;
+}
+p {
+	text-align:justify;
+	font-size:16px;
+}
+
+li{
+	font-size:16px;
+	}
+#header {
+	width: 1000px;
+	height: 241px;
+	background: url('image/header.png') no-repeat;
+	margin:0 auto;
+}
+#content {
+	width:1000px;
+	margin: auto;
+}
+#bcontent {
+	width:980px;
+	height:580px;
+	margin:auto;
+	display: relative;
+	margin-right: 0px;
+	background: #FFF;
+	margin-top: 15px;
+	padding: 10px;
+}
+#bcontent_sucheoci {
+	width:980px;
+	height:auto;
+	margin:auto;
+	display: relative;
+	margin-right: 0px;
+	background: #FFF;
+	margin-top: 15px;
+	padding: 10px;
+}
+
+#video {
+	width: 320;
+	height: 240;
+	display: block;
+	float:right;
+	margin: 0px;
+	padding:clear;
+}
+#img {
+	width: 450;
+	height: 150;
+	display: block;
+	margin: 0px;
+	padding:clear;
+}
+#menu {
+	margin: auto;	/*odsadenie od spodneho a vrchenho blocku*/
+	padding: 5;
+	width:1000px;
+	height:50px;
+	background:url(image/menu.png);
+}
+#menu li {
+	display:inline;
+	position:relative;
+	padding-top: 10px;
+	top:10px;	/*ujebe mi buttony v menu do stredu panela*/
+}
+#menu a {
+	display:inline;
+	position:relative;
+	left: 540px;
+	padding-top: 10px;
+}
+#link1 {
+	display:inline;
+	background-repeat: no-repeat;
+}
+#link1 a:hover {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#link1 a:active {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#link2 {
+	display:inline;
+	background-repeat: no-repeat;
+}
+#link1 a:hover {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#link1 a:active {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#link3 {
+	display:inline;
+	background-repeat: no-repeat;
+}
+#link1 a:hover {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#link1 a:active {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#logo {
+	text-align:center;
+}
+#zaruka {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: #fff;
+	background-image: none;
+	background-origin: padding-box;
+	border-bottom-color: #06C;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-collapse: separate;
+	border-left-color: #06C;
+	border-left-style: solid;
+	border-left-width: 2px;
+	border-right-color: #06C;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-top-color: #06C;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-top-style: solid;
+	border-top-width: 2px;
+	line-height:20px;
+	cursor: auto;
+	font-weight:bold;
+	font-size:24px;
+	float: left;
+	box-shadow: 10px 10px 5px #046098;
+	padding: 5px;
+	margin: 20px;
+}
+#footer {
+	width: 1000px;
+	height: 160px;
+	display:block;
+	background:url(image/footer.png) no-repeat;
+	margin: 0 auto;
+	text-align:right;
+	padding: 5;
+}
+#footer li {
+	display:inline;
+	position:relative;
+	padding-top: 10px;
+	top:10px;	/*ujebe mi buttony v menu do stredu panela*/
+}
+#footer a {
+	display:inline;
+	position:relative;
+	left: 200px;
+	padding-top: 10px;
+}
+#link1 {
+	display:inline;
+	background-repeat: no-repeat;
+}
+#link1 a:hover {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#link1 a:active {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#link2 {
+	display:inline;
+	background-repeat: no-repeat;
+}
+#link1 a:hover {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#link1 a:active {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#link3 {
+	display:inline;
+	background-repeat: no-repeat;
+}
+#link1 a:hover {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#link1 a:active {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#link4 {
+	display:inline;
+	background-repeat: no-repeat;
+	padding-right: 150px;
+}
+#link1 a:hover {
+	background-repeat: no-repeat;
+	display:inline;
+}
+#link1 a:active {
+	background-repeat: no-repeat;
+	display:inline;
+}
