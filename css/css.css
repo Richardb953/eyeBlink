@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #FFF;
+	margin: 0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:500;
+	
+}
+
+h2 {font-size:24px; color:#046098;}
+
+h3 {font-size:18px;}
+
+p { text-align:justify;}
+
+#header {
+	width: 1000px;
+	height: 241px;
+	display:compact; 
+	background: url('image/header.gif') no-repeat;
+	margin:0 auto;
+}
+
+#content {
+	width:1000px;
+	height:620px;
+	
+	margin:0 auto;
+	display: block;
+}
+	 
+
+	#bcontent {
+		width:800px;
+		height:580px;
+		
+		margin:0 auto;
+		display: block;
+		float:right;
+		margin-left: 10px;
+		
+		padding-left: 20px;	
+		padding-right: 20px;
+		margin-right: 0px;
+		background: #FFF;
+		margin-top: 15px;
+		float:left;
+	}
+		#video {
+			width: 320;
+			height: 240;
+			display:block;
+			float:right;
+			margin: 30px;
+		}
+
+		#menu {
+		width:150px;
+		height:580px;
+		
+		display: block;
+		float:left;
+		margin-top:15px;
+		
+		
+		background:url(image/menu.png);
+	}
+
+		#menu a {
+			width:130px;
+			height:30px;
+		
+			display:block;	
+		}
+		
+		
+		#menu ul {
+			list-style: none;
+			margin:5px;
+			padding:5px;
+		}
+		
+		#menu li {	
+			display:block;	 
+		}
+		/*
+		
+		#menu a:hover, #menu .active a {
+			color: #FFFFFF
+		} */
+
+
+			.images {dislay:compact;}
+			.image {position: absolute; z-index:999;}
+			
+			
+			#link1 		{ 
+				background-image: url(image/button1.png);
+				background-repeat: no-repeat; 
+				} 
+				
+					#link1 a:hover {
+					background-image: url(image/menu1.png); 
+					background-repeat: no-repeat;
+					} 
+					
+					#link1 a:active {
+					background-image: url(image/menu1.png); 
+					background-repeat: no-repeat;
+				} 
+				
+			#link2 			{ 
+				background-image: url(image/button2.png);
+				background-repeat: no-repeat; 
+				} 
+				
+					#link2 a:hover {
+					background-image: url(image/menu2.png); 
+					background-repeat: no-repeat;
+					} 
+					
+					#link2 a:active {
+					background-image: url(image/menu2.png); 
+					background-repeat: no-repeat;
+					}
+				
+			#link3 		{ 
+				background-image: url(image/button3.png);
+				background-repeat: no-repeat; 
+				} 
+				
+					#link3 a:hover {
+					background-image: url(image/menu3.png); 
+					background-repeat: no-repeat;
+					} 
+					
+					#link3 a:active {
+					background-image: url(image/menu3.png); 
+					background-repeat: no-repeat;
+					}
+			
+			#link4 	{ 
+				background-image: url(image/button4.png);
+				background-repeat: no-repeat; 
+				} 
+				
+					#link4 a:hover {
+					background-image: url(image/menu4.png); 
+					background-repeat: no-repeat;
+					} 
+					
+					#link4 a:active {
+					background-image: url(image/menu4.png); 
+					background-repeat: no-repeat;
+					}
+				
+			#link5 		{ 
+				background-image: url(image/button5.png);
+				background-repeat: no-repeat; 
+				} 
+				
+					#link5 a:hover {
+					background-image: url(image/menu5.png); 
+					background-repeat: no-repeat;
+					} 
+					
+					#link5 a:active {
+					background-image: url(image/menu5.png); 
+					background-repeat: no-repeat;
+					}
+				
+			#link6 
+				{ 
+				background-image: url(image/button6.png);
+				background-repeat: no-repeat; 
+				} 
+					#link6 a:hover {
+					background-image: url(image/menu6.png); 
+					background-repeat: no-repeat;
+					} 
+					
+					#link6 a:active {
+					background-image: url(image/menu6.png); 
+					background-repeat: no-repeat;
+					}
+				
+#logo { text-align:center;
+	}
+
+
+footer { 
+	width: 1000px;
+	height: 160px;
+	display: block;
+	background:url(image/footer.png) no-repeat;	
+	margin: 0 auto;
+	text-align:right;
+	padding-right: 
+	padding-left: 60px;
+
+}
