@@ -3,7 +3,7 @@
 
 body {
 	color: #000;
-	background:#D1D1D1;
+	background-image:url(image/retina_dust/retina_dust.png);
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -25,25 +25,15 @@ p {
 	text-align: justify;
 	font-size: 20px;
 }
-roll_menu {
-	padding: 20px 50px 150px;
-	font-size: 16px;
-	text-align: center;
-	background: #E3CAA1;
-	float: left;
-	left: 480px;
-	top: 55px;
-	text-decoration: none;
-}
 .ul_menu {
 	text-align: left;
+	margin:0;
 	display: inline-block;
-	margin: 0;
 	padding: 15px 4px 17px 0;
 	list-style: none;
 	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.0);
 	text-decoration: none;
 	position: relative;
 }
