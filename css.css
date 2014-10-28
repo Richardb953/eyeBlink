@@ -3,135 +3,236 @@
 
 body {
 	color: #000;
-	background: #d5f57d;
+	background:#D1D1D1;
 	margin: 0px;
-	padding:0px;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:13px;
-	font-weight:500;
+	padding: 0px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
 }
 h2 {
-	font-size:24px;
-	color:#7cc209;
+	font-size: 30px;
+	color: #7cc209;
 }
 h3 {
-	font-size:20px;
+	font-size: 20px;
 }
 h4 {
-	font-size:16px;
-	color:#7cc209;
+	font-size: 16px;
+	color: #7cc209;
 }
 p {
-	text-align:justify;
-	font-size:16px;
+	text-align: justify;
+	font-size: 20px;
 }
-
-li{
-	font-size:16px;
-	}
+roll_menu {
+	padding: 20px 50px 150px;
+	font-size: 16px;
+	text-align: center;
+	background: #E3CAA1;
+	float: left;
+	left: 480px;
+	top: 55px;
+	text-decoration: none;
+}
+.ul_menu {
+	text-align: left;
+	display: inline-block;
+	margin: 0;
+	padding: 15px 4px 17px 0;
+	list-style: none;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	text-decoration: none;
+	position: relative;
+}
+.li_prva_vrstva {
+	text-decoration: none;
+	font: bold 12px/18px sans-serif;
+	display: inline-block;
+	width: 105px;
+	margin-right: -4px;
+	position: relative;
+	padding: 15px 20px;
+	background: #fff;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	float: left;
+	left: 480px;
+	top: 40px;
+	background: url('image/button.png');
+}
+.li_prva_vrstva:hover {
+	background: url(image/button.png);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+	color: #000000;
+	opacity: 0.9;
+	text-decoration: none;
+}
+.ul_menu_under {
+	text-decoration: none;
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	left:0px;
+	width: 150px;
+	height:50px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-transition: opacity 0.2s;
+}
+.li_druha_vrstva {
+	text-decoration: none;
+	text-align:left;
+	padding-left:10px;
+	padding-top: 10px;
+	background: url('image/button.png');
+	display: block;
+	width: 140px;
+	height:30px;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 #000;
+}
+.li_druha_vrstva:hover {
+	text-decoration: none;
+	background: url(image/button.png);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+	color: #000000;
+	opacity: 0.9;
+}
+.li_prva_vrstva:hover .ul_menu_under {
+	text-decoration: none;
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
 #header {
-	width: 1000px;
-	height: 241px;
-	background: url('image/header.png') no-repeat;
-	margin:0 auto;
+	width: 100%;
+	height: 120px;
+	background: url('image/header_no_logo.png') no-repeat;
+	margin: 0;
+}
+.logo {
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+	position: relative;
+	float: left;
+	left: 50px;
+	/*	background: url('image/logo_eyeblink.png'); */
+	color: #FFF;
+	padding: 2px 2px;
+}
+.btn {
+	background: url('image/button.png');
+	color: #FFF;
+	display: inline-block;
+	border-radius: 0px;
+	width: 150px;
+	height: 35px;
+	text-align: center;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	font-family: Arial, sans-serif;
+	line-height: 2.5em;
+	padding: 2px 2px;
+	text-decoration: none;
+	position: relative;
+	float: left;
+	top: 55px;
+	left: 480px;
+	opacity: 1;
+}
+.ul_menu a {
+     text-decoration:none;
+	 color:#FFFFFF;
+	 size:18px;
+}
+.ul_menu a:hover {
+     text-decoration:none;
+	 color:#255;
+}
+.btn:hover {
+	background: url(image/button.png);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+	color: #000000;
+	opacity: 0.9;
 }
 #content {
-	width:1000px;
+	width: 1000px;
+	height: auto;
 	margin: auto;
 }
 #bcontent {
-	width:980px;
-	height:580px;
-	margin:auto;
+	width: 980px;
+	min-height:700px;
+	height: auto;
+	margin: auto;
 	display: relative;
 	margin-right: 0px;
 	background: #FFF;
 	margin-top: 15px;
-	padding: 10px;
+	padding: 30px;
 }
 #bcontent_sucheoci {
-	width:980px;
-	height:auto;
-	margin:auto;
+	width: 980px;
+	min-height:700px;
+	height: auto;
+	margin: auto;
 	display: relative;
 	margin-right: 0px;
 	background: #FFF;
 	margin-top: 15px;
 	padding: 10px;
 }
-
 #video {
 	width: 320;
 	height: 240;
 	display: block;
-	float:right;
+	float: right;
 	margin: 0px;
-	padding:clear;
+	padding: clear;
 }
 #img {
 	width: 450;
 	height: 150;
 	display: block;
 	margin: 0px;
-	padding:clear;
+	padding: clear;
 }
 #menu {
 	margin: auto;	/*odsadenie od spodneho a vrchenho blocku*/
 	padding: 5;
-	width:1000px;
-	height:50px;
-	background:url(image/menu.png);
+	width: 1000px;
+	height: 50px;
+	background: url(image/menu.png);
 }
 #menu li {
-	display:inline;
-	position:relative;
+	display: inline;
+	position: relative;
 	padding-top: 10px;
-	top:10px;	/*ujebe mi buttony v menu do stredu panela*/
+	top: 10px;	/*ujebe mi buttony v menu do stredu panela*/
 }
 #menu a {
-	display:inline;
-	position:relative;
+	display: inline;
+	position: relative;
 	left: 540px;
 	padding-top: 10px;
 }
-#link1 {
-	display:inline;
-	background-repeat: no-repeat;
-}
-#link1 a:hover {
-	background-repeat: no-repeat;
-	display:inline;
-}
-#link1 a:active {
-	background-repeat: no-repeat;
-	display:inline;
-}
-#link2 {
-	display:inline;
-	background-repeat: no-repeat;
-}
-#link1 a:hover {
-	background-repeat: no-repeat;
-	display:inline;
-}
-#link1 a:active {
-	background-repeat: no-repeat;
-	display:inline;
-}
-#link3 {
-	display:inline;
-	background-repeat: no-repeat;
-}
-#link1 a:hover {
-	background-repeat: no-repeat;
-	display:inline;
-}
-#link1 a:active {
-	background-repeat: no-repeat;
-	display:inline;
-}
 #logo {
-	text-align:center;
+	text-align: center;
 }
 #zaruka {
 	background-attachment: scroll;
@@ -156,82 +257,99 @@ li{
 	border-top-right-radius: 8px;
 	border-top-style: solid;
 	border-top-width: 2px;
-	line-height:20px;
+	line-height: 20px;
 	cursor: auto;
-	font-weight:bold;
-	font-size:24px;
+	font-weight: bold;
+	font-size: 24px;
 	float: left;
 	box-shadow: 10px 10px 5px #046098;
 	padding: 5px;
 	margin: 20px;
 }
 #footer {
-	width: 1000px;
-	height: 160px;
-	display:block;
-	background:url(image/footer.png) no-repeat;
+	width: 100%;
+	height: 70px;
+	display: relative;
+	background: url(image/footer.png) no-repeat;
 	margin: 0 auto;
-	text-align:right;
+	text-align: right;
 	padding: 5;
-}
-#footer li {
-	display:inline;
-	position:relative;
-	padding-top: 10px;
-	top:10px;	/*ujebe mi buttony v menu do stredu panela*/
+	margin-top 10px:
 }
 #footer a {
-	display:inline;
-	position:relative;
-	left: 180px;
+	display: inline;
+	position: relative;
 	padding-top: 10px;
+	text-align: center;
+	padding: 3px;
 }
-#link1 {
-	display:inline;
+.link1 {
+	
+	display: inline;
 	background-repeat: no-repeat;
+	float: right;
+	right: 280px;
 }
-#link1 a:hover {
+.link2 {
+	display: inline;
 	background-repeat: no-repeat;
-	display:inline;
+	float: right;
+	right: 280px;
 }
-#link1 a:active {
+.link3 {
+	display: inline;
 	background-repeat: no-repeat;
-	display:inline;
+	float: right;
+	right: 280px;
 }
-#link2 {
-	display:inline;
+.link4 {
+	display: inline;
 	background-repeat: no-repeat;
+	float: left;
+	left: 35%;
+	color:#FFFFFF;
+	position:relative;
+	top:50%;
 }
-#link1 a:hover {
-	background-repeat: no-repeat;
-	display:inline;
+.link4 a {
+	color:#FFFFFF;
+	display: inline;
+	position:relative;
+	top:50%
 }
-#link1 a:active {
-	background-repeat: no-repeat;
-	display:inline;
+.link5 {
+	background: url('image/button.png');
+	color: #FFF;
+	display: inline;
+	border-radius: 10px;
+	width: 200px;
+	height: 35px;
+	text-align: center;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	font-family: Arial, sans-serif;
+	line-height: 2.5em;
+	padding: 2px 2px;
+	text-decoration: none;
+	float: left;
+	left: 280px;
+	top: 10px;
+	opacity: 1.5;
 }
-#link3 {
-	display:inline;
-	background-repeat: no-repeat;
+.link5:hover {
+	background: url(image/button.png);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+	color: #000000;
+	opacity: 0.9;
 }
-#link1 a:hover {
-	background-repeat: no-repeat;
-	display:inline;
+.wrapper {
+	border: 1px solid black;
 }
-#link1 a:active {
-	background-repeat: no-repeat;
-	display:inline;
+#two {
+	height: 0em;
+	overflow: hidden;
+	transition-property: height;
+	transition: all 1s ease-in-out;
 }
-#link4 {
-	display:inline;
-	background-repeat: no-repeat;
-	padding-right: 150px;
-}
-#link1 a:hover {
-	background-repeat: no-repeat;
-	display:inline;
-}
-#link1 a:active {
-	background-repeat: no-repeat;
-	display:inline;
+.wrapper:hover #two {
+	height: 4em;
 }
